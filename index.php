@@ -1,3 +1,4 @@
+<?php if (strlen($_SERVER["QUERY_STRING"] > 140)) exit(0); ?>
 <!DOCTYPE html>
 <html lang = "ko">
 	<head>
